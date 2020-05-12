@@ -3,17 +3,6 @@
 # https://docs.travis-ci.com/user/job-lifecycle/
 
 # You can import up to 25 other configs in total.
-os: linux
-
-language: node_js
-
-node_js:
-  - 12
-
-cache:
-  - npm
-  - pip
-
 import:
   - credentials.yml
 
